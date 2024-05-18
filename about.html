@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            university website
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" style="width:100px; height:100px">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>       
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                 </nav>
+                 <h1>About Us</h1>
+
+        </section>
+        
+        <!----------About us content------->
+        <section  class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>One of the best private college in Kerala</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque nulla, iusto sit obcaecati omnis corrupti optio sequi ratione? Eligendi veniam enim tenetur eius dolorum pariatur saepe fuga molestiae omnis delectus!khiuhregerhtughbguowrgnwughjrngfjsnjgirkjgeuthguhguetivnotuutu pugfehoyv4ovtiokjkmevyfihjgnhoksuhgiygljpoytoubhklho</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/st3.jpg">
+                </div>
+            </div>
+
+        </section>
+            
+
+
+       <!-- -----Footer-------- -->
+       <section class="footer">
+        <h4>About Us</h4>
+        <p>Toc H Institute of Science & Technology was established in 2002.<br> It is located in Arakkunnam, Ernakulam, Kerala, India.<br> The campus has three blocks: The Main Block named after the Indian Scientist Aryabhata Einstein Block Visweshwarayya Block.</p>
+       </section>
+       <div class="icons">
+        <i class="fa fa-Facebook"></i>
+        <i class="fa fa-Twitter"></i>
+        <i class="fa fa-Instagram"></i>
+        <i class="fa fa-LinkedIn"></i>
+       </div>
+
+
+
+
+
+       <!-------JavaScript for toggle------>
+                <script>
+            var navLinks=document.getElementById("navLinks");
+                
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+
+            }
+        </script>
+    </body>
+</html>
